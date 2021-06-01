@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryLightColor"
+    android:orientation="vertical"
+    tools:context=".activity.OrderPlaced">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_restaurant_name_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_edittext"
+            android:padding="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/restaurant_name"
+            android:textColor="@color/primaryColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_restaurant_name_order"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_edittext"
+            android:padding="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/total"
+            android:textColor="@color/primaryColor" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_success_check"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="25dp"
+        android:src="@drawable/check_vector" />
+
+    <TextView
+        android:id="@+id/tv_order_placed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_success_check"
+        android:layout_centerHorizontal="true"
+        android:text="Order Placed successfully"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_back_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="back to Home"
+        android:textStyle="italic" />
+
+</RelativeLayout>

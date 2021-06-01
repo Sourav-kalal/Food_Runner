@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:layout_margin="10sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_edittext">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="5dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#FFF59D"
+        android:id="@+id/cv_res_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:id="@+id/ll_Res_detail">
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/ordered_res"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:textColor="@color/primaryColor"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurant_name"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="@color/primaryLightColor"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:id="@+id/order_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/_11_11_2011" />
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:padding="5dp"
+        android:id="@+id/recycler_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cv_res_name" />
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegisterForm"
+    android:background="@color/primaryLightColor">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        app:contentInsetStartWithNavigation="0dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:titleTextColor="@color/white"
+        android:background="@color/primaryColor"
+        local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:minHeight="?attr/actionBarSize"
+        app:title="Register Yourself"/>
+
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_name"
+            android:id="@+id/et_name"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:hint="@string/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:importantForAutofill="no" />
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_email"
+        android:id="@+id/et_email"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="@string/email_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:digits="0123456789"
+        android:background="@drawable/rounded_edittext"
+        android:drawablePadding="5dp"
+        android:maxLength="10"
+        android:drawableStart="@drawable/ic_phone_number"
+        android:id="@+id/et_phone_number"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="@string/mobile_number_10_digit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_location"
+        android:id="@+id/et_delivary_address"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="@string/delivery_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_password"
+        android:id="@+id/et_password"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="@string/password_min_4_characters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_password"
+            android:id="@+id/et_confirm_password"
+            android:hint="@string/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:inputType="textPassword"
+            android:importantForAutofill="no" />
+
+    <com.google.android.material.button.MaterialButton
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_register"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        />
+
+
+
+</LinearLayout>

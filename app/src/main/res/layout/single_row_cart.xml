@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:weightSum="3">
+    <TextView
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/primaryLightColor"
+        android:drawablePadding="5dp"
+        android:id="@+id/txt_dish_name_cart"
+        android:layout_width="0dp"
+        android:layout_weight="2.5"
+        android:layout_height="wrap_content"
+        app:drawableStartCompat="@drawable/ic_remove_item"
+        android:text="@string/food_item"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/primaryLightColor"
+        android:id="@+id/txt_dish_cost_cart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/item_amout"
+        android:layout_weight="0.5"/>
+</LinearLayout>
