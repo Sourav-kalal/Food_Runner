@@ -10,7 +10,8 @@
 
 </p>
 
-> This is an restaurant app which is created for Internshala Android Development Training Url and token were provided by internshala itself 
+> This is a Food ordering app which is created for Internshala Android Development Training.
+> Note :  Url and token were provided by internshala itself 
 
 ## Screenshots
 <p>
