@@ -17,7 +17,7 @@
 <p>
 <img alt="Splash_Screen" src="UI/Splash_Screen.gif "style="height:650px; width:400px"/>    
 <img alt="HomePage" src="UI/Homepage.png"  style="height:650px; width:400px"/>
-<h4>Please take a look at UI folder for more Screenshots</h4>
+<b href="https://github.com/Sourav-kalal/Food_Runner/tree/main/UI">Please take a look at UI folder for more Screenshots</b>
 
 </p>
 
