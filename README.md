@@ -1,7 +1,8 @@
-<img src="banner_food_runner.png" alt="Welcome to FOOD RUNNER 👋" style="display: block;
+<p align="center">
+  <img src="banner_food_runner.png" alt="Welcome to FOOD RUNNER 👋" style="display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;"/>
+  width: 70%;"/></p>
 <p>
   <a href="https://www.linkedin.com/in/souravkalal/" target="_blank">
     <img alt="linkedin : souravkalal" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
